@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Survey form</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+  <h1 id="title">Lorem ipsum dolor sit amet</h1>
+  <p id="description">Survey for learning how does using Lorem ipsum as a placeholder text affect our users</p>
+  <form id="survey-form">
+    <div class="form-item" id="grid">
+      <label
+           id="name-label"
+           for="name"
+      >Name:</label>
+      <input
+           type="text"
+           inputmode="text"
+           name="name"
+           id="name"
+           placeholder="Name"
+           required
+      />
+    <label
+           id="email-label"
+           for="email"
+    >Email:</label>
+    <input
+           type="email"
+           inputmode="email"
+           name="email"
+           id="email"
+           placeholder="Email"
+           required
+    />
+    <label
+           id="number-label"
+           for="number"
+    >Age</label>
+    <input
+           type="number"
+           inputmode="numeric"
+           name="age"
+           id="number"
+           min="10"
+           max="99"
+           step="1"
+           placeholder="Age"
+           required
+    /></div>
+    <div class="form-item">
+    <label for="dropdown">Which one is the coolest?</label>
+    <select id="dropdown" name="lorem-cool" required>
+        <option disabled selected value>Lorem</option>
+        <option value="ipsum">Ipsum</option>
+        <option value="dolor">Dolor</option>
+        <option value="sit">Sit</option>
+        <option value="amet">Amet</option>
+    </select>
+    </div>
+    <fieldset class="form-item">
+        <legend>What word do you like more?</legend>
+        <input id="lorem-like" type="radio" name="like" value="lorem">
+        <label for="lorem-like">Lorem</label><br>
+        <input id="ipsum-like" type="radio" name="like" value="ipsum">
+        <label for="ipsum-like">Ipsum</label><br>
+        <input id="dolor-like" type="radio" name="like" value="dolor">
+        <label for="dolor-like">Dolor</label>
+    </fieldset>
+    <fieldset class="form-item">
+        <legend>What words do you dislike?</legend>
+        <input id="dolor-dislike" type="checkbox" name="dislike" value="dolor">
+        <label for="dolor-dislike">Dolor</label><br>
+        <input id="sit-dislike" type="checkbox" name="dislike" value="sit">
+        <label for="sit-dislike">Sit</label><br>
+        <input id="amet-dislike" type="checkbox" name="dislike" value="amet">
+        <label for="amet-dislike">Amet</label>
+    </fieldset>
+    <div class="form-item">
+    <label
+           id="comments-label"
+           for="comments"
+    >
+      If you have any aditional comments you can write them here:
+    </label><br />
+    <textarea
+           name="comments"
+           id="comments"
+           rows="5"
+           placeholder="Any aditional comments"
+    ></textarea><br />
+    </div>
+    <input type="submit" value="Submit" id="submit" />
+  </form>
+</div>
+</body>
+</html>
