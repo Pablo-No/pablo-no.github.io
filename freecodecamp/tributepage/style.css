@@ -1,0 +1,34 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#title {
+  display: block;
+  background-color: black;
+  color: white;
+  width: 100%
+}
+#img-div {
+  width: 30%;
+  min-width: 500px;
+}
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 100%;
+}
+#img-caption {
+  text-align: center
+}
+#tribute-info {
+  width: 30%;
+  min-width: 500px;
+  text-align: left;
+  background-color: LightGray;
+}
+#quote {
+  text-align: center
+}
