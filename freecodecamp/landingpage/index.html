@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Tribute Page</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="header">
+  <h1>LoreMedia</h1>
+  <img id="header-img" src="https://picsum.photos/50">
+  <nav id="nav-bar">
+    <ul>
+      <li><a class="nav-link" href="#features">Features<a></li>
+      <li><a class="nav-link" href="#texts">Texts<a></li>
+      <li><a class="nav-link" href="#images">Images<a></li>
+      <li><a class="nav-link" href="#audios">Audios<a></li>
+      <li><a class="nav-link" href="#videos">Videos<a></li>
+      <li><a class="nav-link" href="#contact">Contact<a></li>
+    </ul>
+  </nav>
+</header>
+<main id="main">
+  <section id="features">
+    <header>Features</header>
+    <ul>
+      <li>We provide media to make easy to make test pages.</li>
+      <li>We care of media and you care of styling.</li>
+      <li>We offer a lot of media types:
+        <ul>
+          <li>Text: forget meaningless Lorem Ipsum, we offer a lot of meaningful texts, with or without HTML markup.</li>
+          <li>Images: tired of looking for public domain images, we have lots of them in many different sizes.</li>
+          <li>Audio: Do you need some readed text, music or sound effects? This is the place you're looking for.</li>
+          <li>Video: You can get lot's of videos premade for you with text tracks in different languages or by selecting audio and soundless animations that we'll combine.</li>
+        </ul>
+      </li>
+      <li>All of our media is of public domain, so you won't have any problem using it in your tests.</li>
+      <li>All of our work is open source, licensed under mit license, check us on GitHub.</li>
+    </ul>
+  </section>
+  <section id="texts">
+    <header>Texts</header>
+    <p>Here's an example text:</p>
+    <div>The <code>div</code> element can be used for make a division of content, and it's mostly used for styling, for example if you want to make a red boxx, you can use a div element...</div>
+  </section>
+  <section id="images">
+    <header>Images</header>
+    <p>Here are some example images:</p>
+    <div id="gallery">
+      <img class="example-image" src="https://picsum.photos/1000">
+      <img class="example-image" src="https://picsum.photos/2000">
+    </div>
+  </section>
+  <section id="audios">
+    <header>Audios</header>
+    <p>Here's an example audio:</p>
+    <audio controls>
+      <source src="https://pablo-no.github.io/Lorem-video/Voz.wav" type="audio/wav">
+      <p>Your browser does not support this audio</p>
+    </audio>
+  </section>
+  <section id="videos">
+    <header>Videos</header>
+    <p>Here's an example video:</p>
+    <video id="video" controls="">
+      <source src="https://pablo-no.github.io/Lorem-video/video.webm" type="video/webm">
+      <source src="https://pablo-no.github.io/Lorem-video/video.mp4" type="video/mp4">
+      <track kind="subtitles" src="https://pablo-no.github.io/Lorem-video/subtitles_en.vtt" srclang="en">
+      <track kind="subtitles" src="https://pablo-no.github.io/Lorem-video/subtitles_es.vtt" srclang="es">
+      <track kind="chapters" src="https://pablo-no.github.io/Lorem-video/chapters_en.vtt" srclang="en">
+      <track kind="chapters" src="https://pablo-no.github.io/Lorem-video/chapters_es.vtt" srclang="es">
+      <p>Your browser does not support this video</p>
+    </video>
+  </section>
+  <section id="contact">
+    <header>Contact</header>
+    <p>Subscribe to our newsteller:<p>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <label id="email-label" for="email">Email:</label>
+      <input
+        type="email"
+        inputmode="email"
+        name="email"
+        id="email"
+        placeholder="Email"
+        required
+      />
+      <input type="submit" value="Submit" id="submit" />
+    </form>
+  </section>
+</main>
+<footer id="footer">
+  This is a test project for FCC, so all the information above is false and there is no LoreMedia project.
+<footer>
+</body>
+</html>
